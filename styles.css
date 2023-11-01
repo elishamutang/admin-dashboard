@@ -10,6 +10,11 @@ body {
     height: 100%;
 }
 
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
 /* Sidebar styling */
 
 nav {
@@ -20,7 +25,8 @@ nav {
     display: grid;
     grid-template-rows: 0.5fr 2fr 2fr;
     gap: 50px 0;
-    border: 2px solid red;
+    font-weight: bold;
+    color: white;
 }
 
 #nav-title {
@@ -31,23 +37,29 @@ nav {
 
 #nav-title > div {
     font-size: 40px;
-    font-weight: bold;
     align-self: center;
 }
 
 #navOne, #navOne > ul,
 #navTwo, #navTwo > ul {
+    font-size: 20px;
     width: inherit;
-    padding-left: 30px;
 }
 
 #navOne,
 #navTwo {
+    padding-left: 60px;
     border: 2px solid red;
 }
 
 #navOne > ul > li,
 #navTwo > ul > li {
+    width: max-content;
     margin: 30px 0;
-    list-style-type: circle;
+    list-style-type: none;
+    border: 2px solid red;
+}
+
+#navOne > ul > li:first-child {
+    list-style-image: url(home-circle.svg);
 }
