@@ -19,11 +19,8 @@ nav {
     background-color: #71717a;
     display: grid;
     grid-template-rows: 0.5fr 2fr 2fr;
+    gap: 50px 0;
     border: 2px solid red;
-}
-
-svg {
-    /* border: 2px solid red; */
 }
 
 #nav-title {
@@ -36,4 +33,21 @@ svg {
     font-size: 40px;
     font-weight: bold;
     align-self: center;
+}
+
+#navOne, #navOne > ul,
+#navTwo, #navTwo > ul {
+    width: inherit;
+    padding-left: 30px;
+}
+
+#navOne,
+#navTwo {
+    border: 2px solid red;
+}
+
+#navOne > ul > li,
+#navTwo > ul > li {
+    margin: 30px 0;
+    list-style-type: circle;
 }
