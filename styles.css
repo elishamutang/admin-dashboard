@@ -86,4 +86,16 @@ header {
     grid-column-start: 2;
     box-shadow: 0 4px 5px 2px grey;
     background-color: #30475E;
+
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+#top-header,
+#bottom-header {
+    width: 100%;
+    border: 2px solid red;
+
+    display: grid;
+    grid-template-columns: 2fr 1fr;
 }
