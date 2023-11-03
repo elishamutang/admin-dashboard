@@ -180,7 +180,27 @@ header {
 
 #big-profile-pic > img {
     width: 100px;
-    border: 2px solid white;
+    border: 4px solid white;
     border-radius: 50%;
     margin-left: 100px;
+}
+
+#greetings,
+#greetings > div {
+    color: white;
+}
+
+#greetings > div {
+    font-size: 35px;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+#greetings > div > span {
+    margin-left: 20px;
+}
+
+#greetings {
+    font-size: 20px;
+    align-self: center;
 }
