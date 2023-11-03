@@ -188,12 +188,12 @@ header {
 #greetings,
 #greetings > div {
     color: white;
+    font-weight: bold;
 }
 
 #greetings > div {
     font-size: 35px;
     margin-top: 5px;
-    font-weight: bold;
 }
 
 #greetings > div > span {
