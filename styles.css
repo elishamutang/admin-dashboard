@@ -158,6 +158,7 @@ header {
 #top-header-right > button {
     background-color: transparent;
     border: none;
+    cursor: pointer;
 }
 
 #profile-name {
