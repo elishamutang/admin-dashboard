@@ -10,6 +10,7 @@ body {
     height: 100%;
     display: grid;
     grid-template-columns: 20% 80%;
+    grid-template-rows: 20% 80%;
 }
 
 a {
@@ -38,7 +39,7 @@ nav {
     gap: 30px 0;
     font-weight: bold;
     color: black;
-    grid-row-start: 1;
+    grid-row: 1 / 3;
 }
 
 #nav-title {
@@ -228,4 +229,14 @@ header {
     background-color: white;
     font-size: 18px;
     font-weight: bold;
+}
+
+/* Main styling */
+
+main {
+    width: 100%;
+    height: 100%;
+    border: 2px solid red;
+    grid-column-start: 2;
+    grid-row-start: 2;
 }
