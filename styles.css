@@ -280,6 +280,7 @@ aside {
 }
 
 #text {
+    border: 3px solid white;
     border-bottom-right-radius: inherit;
     margin-left: 10px;
     padding: 20px 20px;
@@ -289,6 +290,7 @@ aside {
 }
 
 #icons {
+    border: 3px solid white;
     padding-left: 20px;
     border-bottom-right-radius: inherit;
     margin-left: 10px;
@@ -297,6 +299,7 @@ aside {
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
+    gap: 10px;
 }
 
 #text > h2,
