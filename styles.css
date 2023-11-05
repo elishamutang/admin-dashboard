@@ -263,11 +263,10 @@ aside > div {
     border: 2px solid black;
     background-color: white;
     
-    border-radius: 5px;
+    border-radius: 10px;
     box-shadow: inset 10px 0 0 0 #F05454;
 
     display: grid;
-    grid-template-columns: 3% 97%;
     grid-template-rows: 80% 20%;
     color: black;
 }
@@ -278,4 +277,14 @@ aside {
     display: grid;
     grid-template-rows: 3% 1fr 3% 1fr;
     gap: 30px;
+}
+
+#text, #icons {
+    border: 2px solid white;
+    margin-left: 10px;
+    padding-left: 10px;
+}
+
+#text > h2 {
+    padding-top: 10px;
 }
