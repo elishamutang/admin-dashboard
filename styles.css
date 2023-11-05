@@ -280,13 +280,27 @@ aside {
 }
 
 #text, #icons {
-    border: 3px solid white;
+    border: 3px solid black;
     border-top-right-radius: inherit;
     border-bottom-right-radius: inherit;
     margin-left: 10px;
-    padding-left: 10px;
+    padding: 20px 20px;
+
+    display: flex;
+    flex-direction: column;
 }
 
-#text > h2 {
+#text > h2,
+#text > p {
     padding-top: 10px;
+}
+
+#text > p {
+    color: rgb(90, 90, 90);
+}
+
+#text > img {
+    padding: 10px 0;
+    width: 100px;
+    align-self: center;
 }
