@@ -11,7 +11,7 @@ body {
     display: grid;
     grid-template-columns: 20% 80%;
     grid-template-rows: 20% 80%;
-    background-color: #F05454;
+    background-color: #222831;
 }
 
 a {
@@ -88,7 +88,7 @@ header {
     width: 100%;
     height: 100%;
     grid-column-start: 2;
-    box-shadow: 0 4px 5px 3px rgb(255, 107, 107);
+    box-shadow: 0 3px 2px 2px #506686;
     background-color: #30475E;
 
     display: grid;
@@ -264,7 +264,7 @@ aside > div {
     background-color: white;
     
     border-radius: 5px;
-    box-shadow: inset 10px 0 0 0 #ffcc40;
+    box-shadow: inset 10px 0 0 0 #F05454;
 
     display: grid;
     grid-template-columns: 3% 97%;
