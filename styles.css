@@ -299,8 +299,16 @@ aside {
     color: rgb(90, 90, 90);
 }
 
-#text > img {
-    padding: 10px 0;
+#text > a > img {
     width: 100px;
+}
+
+#text > a:hover {
+    transform: scale(1.1);
+    transition-duration: 0.2s;
+}
+
+#text > a {
     align-self: center;
+    padding: 10px 0;
 }
