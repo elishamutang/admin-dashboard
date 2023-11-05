@@ -238,21 +238,21 @@ main {
     height: 100%;
     grid-column-start: 2;
     grid-row-start: 2;
-    padding: 50px 30px;
+    padding: 35px 30px;
     background-color: #F05454;
 
     display: grid;
     grid-template-columns: 1fr 1fr 0.8fr;
     grid-template-rows: repeat(3, 1fr);
     justify-items: center;
-    gap: 30px;
+    gap: 0 27px;
 }
 
 main > div,
 aside > div {
     width: 100%;
     height: 100%;
-    border: 2px solid white;
+    /* border: 2px solid white; */
     background-color: white;
 }
 
@@ -267,4 +267,19 @@ aside {
     display: grid;
     grid-row: 1 / 4;
     gap: 20px 0;
+}
+
+h2 {
+    background-color: #F05454;
+    color: white;
+}
+
+main > div > div {
+    height: 28px;
+    background-color: #F05454;
+    padding-bottom: 50px;
+}
+
+.misc > h2 {
+    padding-bottom: 20px;
 }
