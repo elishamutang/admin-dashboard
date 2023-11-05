@@ -33,8 +33,9 @@ nav {
     border: 2px solid rgb(182, 182, 182);
     border-top: none;
     border-bottom: none;
+
     display: grid;
-    grid-template-rows: 0.5fr 2fr 2fr;
+    grid-template-rows: 100px 450px 450px;
     gap: 30px 0;
     font-weight: bold;
     color: black;
@@ -61,7 +62,7 @@ nav {
 
 #navOne,
 #navTwo {
-    padding-left: 50px;
+    padding-left: 20px;
     /* border: 2px solid red; */
 }
 
@@ -238,7 +239,7 @@ main {
     padding: 30px 40px;
 
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 3fr 1fr;
     gap: 0 30px;
     color: white;
 }
@@ -248,7 +249,7 @@ main {
 
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 3% 1fr 1fr 1fr;
+    grid-template-rows: 3% repeat(3, 300px);
     gap: 30px;
 }
 
