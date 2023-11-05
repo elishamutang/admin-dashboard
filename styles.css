@@ -269,17 +269,10 @@ aside {
     gap: 20px 0;
 }
 
-h2 {
-    background-color: #F05454;
-    color: white;
-}
-
-main > div > div {
+main > div > div,
+.misc > div {
     height: 28px;
     background-color: #F05454;
     padding-bottom: 40px;
-}
-
-.misc > h2 {
-    padding-bottom: 10px;
+    color: white;
 }
