@@ -10,3 +10,13 @@ profilePicCopy.id = "big-profile-pic";
 
 bottomHeaderLeft.insertBefore(profilePicCopy, greetings);
 
+// Copy icons for each main-content div
+
+const mainContentIcons = document.getElementById("icons");
+const mainContentDiv = Array.from(document.querySelectorAll(".main-content"));
+
+
+for (let i = 1; i < 6; i++) {
+    let iconCopy = mainContentIcons.cloneNode(true);
+    mainContentDiv[i].append(iconCopy);
+}
