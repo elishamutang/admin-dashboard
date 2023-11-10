@@ -223,9 +223,39 @@ header {
     padding: 10px 30px;
     border-radius: 20px;
     border: none;
-    background-color: white;
+    background-color: red;
     font-size: 18px;
     font-weight: bold;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+
+    transition: color 0.2s ease-in-out;
+}
+
+#bottom-header-right > button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: white;
+    border-radius: inherit;
+    z-index: -1;
+    transition: transform 0.2s ease-in-out;
+
+    transform: scale(1.5);
+}
+
+#bottom-header-right > button:hover::before,
+#bottom-header-right > button:focus::before {
+    transform: scale(0);
+}
+
+#bottom-header-right > button:hover,
+#bottom-header-right > button:focus {
+    color: white;
 }
 
 /* Main styling */
@@ -316,12 +346,12 @@ aside {
 #text > a:hover {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
-    transition-duration: 0.3s;
 }
 
 #text > a {
     align-self: center;
     padding-top: 15px;
+    transition: transform 0.2s ease-in-out;
 }
 
 /* Aside tag */
