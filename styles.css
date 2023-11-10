@@ -451,6 +451,6 @@ aside > div {
 
 .connections > .misc-flex > img:hover,
 .connections > .misc-flex > img:focus {
-    border: 3px solid red;
+    border: 3px solid var(--accent-color);
     transform: scale(1.1);
 }
