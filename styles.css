@@ -173,6 +173,24 @@ header {
     font-size: 25px;
 }
 
+#top-header-right > button {
+    transition: transform 0.2s;
+}
+
+#top-header-right > button:hover,
+#top-header-right > button:focus {
+    transform: scale(1.2);
+}
+
+#top-header-right > button > svg {
+    transition: fill 0.2s;
+}
+
+#top-header-right > button > svg:hover,
+#top-header-right > button > svg:focus {
+    fill: red;
+}
+
 /* Bottom header */
 
 /* Bottom header left */
@@ -269,6 +287,8 @@ main {
     grid-template-columns: 3fr 1fr;
     gap: 0 30px;
     color: white;
+
+    --accent-color: #F05454;
 }
 
 #main {
@@ -291,7 +311,7 @@ aside > div {
     background-color: white;
     
     border-radius: 10px;
-    box-shadow: inset 10px 0 0 0 #F05454;
+    box-shadow: inset 10px 0 0 0 var(--accent-color);
 
     display: grid;
     grid-template-rows: 80% 20%;
@@ -357,7 +377,8 @@ aside {
 /* Aside tag */
 /* Your Hobbies */
 aside > div {
-    box-shadow: -8px 8px rgb(81, 211, 251);
+    /* box-shadow: -8px 8px rgb(81, 211, 251); */
+    box-shadow: -8px 8px var(--accent-color);
 }
 
 .hobbies-section {
@@ -367,7 +388,7 @@ aside > div {
 }
 
 .hobbies {
-    border: 2px solid rgb(81, 113, 228);
+    border: 2px solid rgb(184, 184, 184);
     border-left: none;
     border-right: none;
     border-top: none;
@@ -422,6 +443,14 @@ aside > div {
     width: 70px;
     height: 70px;
     background-color: grey;
-    border: 2px solid black;
+    border: 3px solid black;
     border-radius: 50%;
+
+    transition: transform 0.2s ease-in-out;
+}
+
+.connections > .misc-flex > img:hover,
+.connections > .misc-flex > img:focus {
+    border: 3px solid red;
+    transform: scale(1.1);
 }
