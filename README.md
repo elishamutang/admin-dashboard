@@ -1,6 +1,7 @@
 # admin-dashboard
 Final project from The Odin Project's Intermediate HTML &amp; CSS Course.
 
-Things to add:
+Future improvements:
 
-1. CSS effects on nav bar links and notification icon.
+1. Responsive layout.
+2. CSS hover effects on sidebar icons.
